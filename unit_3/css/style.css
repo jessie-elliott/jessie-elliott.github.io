@@ -1,0 +1,50 @@
+#ul_top_hypers li {
+  display: inline;
+  padding: 22px;
+  size: 16px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  text-shadow: .8px .8px #000000;
+}
+body {
+  text-align: center;
+  background-image: url("images/beermountains.jpg");
+  background-size: cover;
+  background-color: #E8DB4E;
+  color: #FFC302;
+}
+h1 {
+  font-family: "Arial Black", sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px #000000;
+}
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: #D66D00;
+  text-shadow: 1px 1px #ffffff;
+  text-transform: uppercase;
+}
+#slogan {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 1px 1px #000000;
+}
+#intro {
+  color: black;
+  font-size: 22px;
+  text-shadow: 1px 1px #ffffff;
+}
+#contact {
+  color: #FFC302;
+}
+p {
+  color: black;
+}
+.beers {
+  font-size: 16px;
+  text-transform: uppercase;
+}
