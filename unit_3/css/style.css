@@ -1,8 +1,25 @@
-#ul_top_hypers li {
-  display: inline;
-  padding: 22px;
+header {
+  background: url("images/closeup_beer.jpg");
+  width: 100%;
+  overflow: auto;
+  background-size: 100%;
+}
+.logo {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  float: left;
+}
+#nav li {
+  display: inline-block;
   size: 16px;
+  margin-top: 50px;
+  padding: 0;
   text-transform: uppercase;
+  margin-right: 50px;
 }
 a {
   text-decoration: none;
@@ -11,6 +28,7 @@ a {
 body {
   text-align: center;
   background-image: url("images/beermountains.jpg");
+  background-position: center;
   background-size: cover;
   background-color: #E8DB4E;
   color: #FFC302;
@@ -19,6 +37,8 @@ h1 {
   font-family: "Arial Black", sans-serif;
   font-size: 60px;
   text-shadow: 2px 2px #000000;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 h2 {
   font-family: Arial, sans-serif;
@@ -32,6 +52,7 @@ h2 {
   font-style: italic;
   font-size: 30px;
   text-shadow: 1px 1px #000000;
+  padding-bottom: 200px;
 }
 #intro {
   color: black;
@@ -40,9 +61,10 @@ h2 {
 }
 #contact {
   color: #FFC302;
+  background-color: black;
 }
 p {
-  color: black;
+  color: white;
 }
 .beers {
   font-size: 16px;
