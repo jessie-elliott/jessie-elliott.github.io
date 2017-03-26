@@ -1,0 +1,101 @@
+&* {margin:0; padding:0, box-sizing: bodrer-box;}
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+section, h1 {
+    padding: 5em, 0;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 1em;
+  text-transform: uppercase;
+  margin-right: 50px;
+  color: #FF3713;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: .8px .8px #000000;
+}
+
+header .logo {
+  float: left;
+  width: 5em;
+}
+
+#hero .logo {
+  width: 200px;
+}
+
+#hero {
+  background-image: url("images/beermountains.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10em, 0 0;
+  height: 90vh;
+}
+
+body {
+  text-align: center;
+  background-color: #FFC302;
+  /*color: #FFC302;*/
+}
+
+h1 {
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px #000000;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  color: #D66D00;
+  text-shadow: 1px 1px #ffffff;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+#slogan {
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 1px 1px #000000;
+  padding-top: 15px;
+  padding-bottom: 200px;
+}
+
+#intro {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  /*line-length: need to fill this in with some value!;*/
+  color: black;
+  font-size: 22px;
+  text-shadow: 1px 1px #ffffff;
+}
+
+#contact {
+  color: #FFC302;
+  background-color: black;
+}
+
+p {
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+}
+.beers {
+  font-size: 16px;
+  text-transform: uppercase;
+}
