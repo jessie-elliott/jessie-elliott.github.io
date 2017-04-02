@@ -94,6 +94,7 @@ h3 {
   background-color: black;
   display: inline-block;
   text-align: center;
+  clear: both;
 }
 
 p {
@@ -122,8 +123,7 @@ h3 .left {
 
 .leftimg {
   display: block;
-  width: 20%;
-  float: left;
+  width: 18%;
 }
 
 .right {
@@ -136,6 +136,29 @@ h3 .left {
   float: right;
 }
 
+.rightimg {
+  display: block;
+  width: 18%;
+}
+
 h3 .right {
   padding: 1.5em 1em ;
+}
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
 }
