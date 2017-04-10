@@ -1,0 +1,301 @@
+&* {margin:0; padding:0, box-sizing: bodrer-box;}
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+nav {
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 0 50px 20px 0;
+  color: #FF3713;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: .8px .8px #000000;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#hero {
+  background-image: url("images/beermountains.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10em, 0 0;
+  height: 92vh;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(243, 236, 224);
+  /*color: #FFC302;*/
+}
+
+#hero .logo {
+  width: 200px;
+  display: block;
+  margin: 10% 43% 5% 43%;
+}
+
+#brand {
+  color: black;
+  font-family: 'Shrikhand', cursive;
+  font-size: 80px;
+  text-shadow: 2px 2px #2300FF;
+  margin: 0 20%;
+  padding: 20px 0 0 0;
+  display: block;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  color: #D66D00;
+  text-shadow: 1px 1px #ffffff;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h3 {
+  font-family: 'Playfair Display', serif;
+  text-shadow: #2300FF;
+}
+
+#slogan {
+  color: black;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 1px 1px #2300FF;
+  padding-top: 15px;
+  padding-bottom: 200px;
+}
+
+.intro {
+  padding: 20px;
+  width: 90%;
+  margin: 5%;
+}
+
+#sustainableimg {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  background-color: #E582A2;
+  border: 1px black solid;
+  padding: 20px;
+  margin: 1% 5%;
+}
+
+#sustainabletext {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: black;
+  font-size: 18px;
+  text-shadow: 1px 1px #2300FF;
+  text-align: center;
+  margin: 3% 9%;
+  float: right;
+  width: 40%;
+  background-color: rgb(243, 236, 224);
+  padding: 1%;
+}
+
+.intro:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+p {
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+#container {
+  border: 2px black solid;
+  width: 90%;
+  margin: 5%;
+}
+
+#container h2 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.lagerimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 1em 1em 7em;
+  float: left;
+}
+
+.lager {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left;
+}
+
+.lager h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.lagercontainer {
+  clear: both;
+}
+
+.ipa {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left
+}
+
+.ipa h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.ipaimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 7em 1em 1em;
+  float: left;
+}
+
+.ipacontainer {
+  clear: both;
+}
+
+.paleimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 1em 1em 7em;
+  float: left;
+}
+
+.pale {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left;
+}
+
+.pale h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.palecontainer {
+  clear: both;
+}
+
+.amber {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left;
+}
+
+.amber h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.amberimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 7em 1em 1em;
+  float: left;
+}
+
+.ambercontainer {
+  clear: both;
+}
+
+.brownimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 1em 1em 7em;
+  float: left;
+}
+
+.brown {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left;
+}
+
+.brown h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.browncontainer {
+  clear: both;
+}
+
+.porter {
+  width: 50%;
+  margin: 1em 2em;
+  padding: 1% 5%;
+  float: left;
+}
+
+.porter h3 {
+  font-size: 20px;
+  padding: 3% 1%;
+  text-transform: uppercase;
+}
+
+.porterimg {
+  display: inline-block;
+  width: 15%;
+  margin: 1em 7em 1em 1em;
+  float: left;
+}
+
+.portercontainer {
+  clear: both;
+}
+
+#container:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#contact {
+  width: 400px;
+  margin: 10% 35%;
+  color: #FFC302;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  clear: both;
+}
