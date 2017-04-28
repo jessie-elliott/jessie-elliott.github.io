@@ -3,9 +3,26 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 
-
-nav {
+#nav_header {
   float: right;
+  margin: 0 10%;
+}
+
+#nav_header a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 0 50px 20px 0;
+  color: #2300FF;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: .8px .8px #000000;
+}
+
+/*nav {
+  float: right;
+  margin: 0 20%;
 }
 
 nav a {
@@ -14,13 +31,13 @@ nav a {
   padding: 20px;
   text-transform: uppercase;
   margin: 0 50px 20px 0;
-  color: #FF3713;
+  color: #2300FF;
   font-weight: bold;
   text-decoration: none;
   text-shadow: .8px .8px #000000;
-}
+}*/
 
-nav a:hover {
+#nav_header a:hover {
   color: white;
 }
 
@@ -121,10 +138,10 @@ h2 {
   height: 0;
 }
 
-p {
+/*p {
   color: black;
   font-family: 'Playfair Display', serif;
-}
+}*/
 
 #container {
   border: 2px black solid;
@@ -157,6 +174,10 @@ p {
   text-transform: uppercase;
 }
 
+.lager p {
+  font-family: 'Playfair Display', serif;
+}
+
 .lagercontainer {
   clear: both;
 }
@@ -172,6 +193,10 @@ p {
   font-size: 20px;
   padding: 3% 1%;
   text-transform: uppercase;
+}
+
+.ipa p {
+  font-family: 'Playfair Display', serif;
 }
 
 .ipaimg {
@@ -205,6 +230,10 @@ p {
   text-transform: uppercase;
 }
 
+.pale p {
+  font-family: 'Playfair Display', serif;
+}
+
 .palecontainer {
   clear: both;
 }
@@ -220,6 +249,10 @@ p {
   font-size: 20px;
   padding: 3% 1%;
   text-transform: uppercase;
+}
+
+.amber p {
+  font-family: 'Playfair Display', serif;
 }
 
 .amberimg {
@@ -253,6 +286,10 @@ p {
   text-transform: uppercase;
 }
 
+.brown p {
+  font-family: 'Playfair Display', serif;
+}
+
 .browncontainer {
   clear: both;
 }
@@ -268,6 +305,10 @@ p {
   font-size: 20px;
   padding: 3% 1%;
   text-transform: uppercase;
+}
+
+.porter p {
+  font-family: 'Playfair Display', serif;
 }
 
 .porterimg {
@@ -290,12 +331,43 @@ p {
   height: 0;
 }
 
-#contact {
-  width: 400px;
-  margin: 10% 35%;
-  color: #FFC302;
+footer {
+  width: 70%;
+  margin: 10% 10%;
   background-color: black;
+}
+
+#nav_footer {
+  float: right;
+  margin: 0 10%;
+}
+
+#nav_footer a:hover {
+  color: white;
+}
+
+#nav_footer a {
   display: inline-block;
+  font-size: 18px;
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 0 50px 20px 0;
+  color: #2300FF;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: .8px .8px #000000;
   text-align: center;
+}
+
+#contact {
+  color: #D66D00;
   clear: both;
+  text-align: center;
+}
+
+#phoneemail {
+  clear: both;
+  color: #D66D00;
+  text-decoration: none;
+  text-align: center;
 }
