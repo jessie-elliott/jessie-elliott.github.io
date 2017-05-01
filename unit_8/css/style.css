@@ -1,23 +1,25 @@
-&* {margin:0; padding:0, box-sizing: bodrer-box;}
+
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+&* {margin:0; padding:0; box-sizing: border-box;}
 
 #nav_header {
   float: right;
+
   margin: 0 10%;
 }
 
 #nav_header a {
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.1em;
   padding: 20px;
   text-transform: uppercase;
   margin: 0 50px 20px 0;
-  color: #2300FF;
+  color: white;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: .8px .8px #000000;
+  text-shadow: 1px 1px #000000;
 }
 
 /*nav {
@@ -38,11 +40,11 @@ nav a {
 }*/
 
 #nav_header a:hover {
-  color: white;
+  color: #2300FF;
 }
 
 #hero {
-  background-image: url("images/beermountains.jpg");
+  background-image: url("images/beermountains2.jpg");
   background-position: center;
   background-size: cover;
   padding: 10em, 0 0;
@@ -52,6 +54,7 @@ nav a {
 
 body {
   background-color: rgb(243, 236, 224);
+  font-size: 16px;
   /*color: #FFC302;*/
 }
 
@@ -98,9 +101,9 @@ h2 {
 }
 
 .intro {
-  padding: 20px;
   width: 90%;
   margin: 5%;
+  background: aqua;
 }
 
 #sustainableimg {
@@ -114,13 +117,13 @@ h2 {
 }
 
 #sustainabletext {
-  display: inline-block;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1px;
   line-height: 1.5em;
   color: black;
   font-size: 18px;
-  text-shadow: 1px 1px #2300FF;
+  font-weight: 700;
+/*  text-shadow: 1px 1px #2300FF;*/
   text-align: center;
   margin: 3% 9%;
   float: right;
