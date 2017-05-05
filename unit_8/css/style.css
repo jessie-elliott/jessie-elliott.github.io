@@ -5,42 +5,25 @@
 &* {margin:0; padding:0; box-sizing: border-box;}
 
 #nav_header {
-  float: right;
-
-  margin: 0 10%;
-}
-
-#nav_header a {
-  display: inline-block;
-  font-size: 1.1em;
-  padding: 20px;
-  text-transform: uppercase;
-  margin: 0 50px 20px 0;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 1px 1px #000000;
-}
-
-/*nav {
-  float: right;
+  float: left;
+  width: 100%;
   margin: 0 20%;
 }
 
-nav a {
-  display: inline-block;
-  font-size: 18px;
-  padding: 20px;
-  text-transform: uppercase;
-  margin: 0 50px 20px 0;
-  color: #2300FF;
-  font-weight: bold;
+#nav_header a {
+  display: inline-block;  
+  margin: 0 1%;
+  padding: 1.2em;
+  font-size: 1.1em;
+  font-weight: 900;
   text-decoration: none;
-  text-shadow: .8px .8px #000000;
-}*/
+  text-shadow: 1px 1px black;
+  text-transform: uppercase; 
+  color: #2300FF;
+}
 
 #nav_header a:hover {
-  color: #2300FF;
+  color: white;
 }
 
 #hero {
@@ -48,40 +31,30 @@ nav a {
   background-position: center;
   background-size: cover;
   padding: 10em, 0 0;
-  height: 92vh;
+  height: 94vh;
   text-align: center;
 }
 
 body {
-  background-color: rgb(243, 236, 224);
+  background: rgb(251, 238, 205);
   font-size: 16px;
   /*color: #FFC302;*/
 }
 
-#hero .logo {
-  width: 200px;
+.logo {
+  width: 11em;
   display: block;
-  margin: 10% 43% 5% 43%;
+  margin: 5% 44% 5% 44%;
 }
 
 #brand {
-  color: black;
-  font-family: 'Shrikhand', cursive;
-  font-size: 80px;
-  text-shadow: 2px 2px #2300FF;
-  margin: 0 20%;
-  padding: 20px 0 0 0;
+  margin: 0 0;
+  padding: .8em 0 0 0;
   display: block;
-}
-
-h2 {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 22px;
-  color: #D66D00;
-  text-shadow: 1px 1px #ffffff;
-  text-transform: uppercase;
-  padding: 20px;
-  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-size: 6.5em;
+  text-shadow: 3px 3px #2300FF;
+  color: black;  
 }
 
 .hero h3 {
@@ -89,47 +62,43 @@ h2 {
   text-shadow: #2300FF;
 }
 
-#slogan {
-  color: black;
+#slogan {  
+  padding-top: 1em;
   font-family: 'Droid Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-style: italic;
-  font-size: 30px;
+  font-size: 2.3em;
   text-shadow: 1px 1px #2300FF;
-  padding-top: 15px;
-  padding-bottom: 200px;
+  color: black;
 }
 
 .intro {
   width: 90%;
   margin: 5%;
-  background: aqua;
 }
 
 #sustainableimg {
+  float: left;
   display: inline-block;
   width: 25%;
-  float: left;
+  margin: 1% 1% 1% 15%;
   background-color: #E582A2;
-  border: 1px black solid;
-  padding: 20px;
-  margin: 1% 5%;
+  border-radius: 15px;
 }
 
 #sustainabletext {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
-  line-height: 1.5em;
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-/*  text-shadow: 1px 1px #2300FF;*/
-  text-align: center;
-  margin: 3% 9%;
   float: right;
   width: 40%;
-  background-color: rgb(243, 236, 224);
+  margin: 3% 13% 1% 1%;
   padding: 1%;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: center;
+  color: black;
+  background: rgb(251, 238, 205);
 }
 
 .intro:after {
@@ -141,184 +110,247 @@ h2 {
   height: 0;
 }
 
-/*p {
-  color: black;
-  font-family: 'Playfair Display', serif;
-}*/
-
 #container {
-  border: 2px black solid;
   width: 90%;
-  margin: 5%;
+  margin: 5% 5% 0 5%;
+  background-color: rgb(253, 251, 252);
+  border: .3em black solid;
+  border-radius: 1.2em;
 }
 
 #container h2 {
-  font-size: 50px;
-  padding: 20px;
+  padding: 1em;
+  font-family: 'Shrikhand', cursive;
+  font-size: 4.5em;
+  text-shadow: 2px 2px #2300FF;
+  text-align: center;
+  color: black; 
 }
 
+/*.lagercontainer {
+  width: 100%;
+  margin: 0 auto;
+  border: 1em black solid;
+}*/
+
 .lagerimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 1em 1em 7em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0 1.5% 12%;
+  padding: 2em 3em;
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .lager {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
   float: left;
+  width: 45%;
+  margin: 1.5% 3% 1.5% 1.5%;
+  padding: 4.9em 3em;
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .lager h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;
   text-transform: uppercase;
 }
 
 .lager p {
-  font-family: 'Playfair Display', serif;
-}
-
-.lagercontainer {
-  clear: both;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 .ipa {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
-  float: left
+  float: left;
+  width: 45%;
+  margin: 1.5% 1.5% 1.5% 12%;
+  padding: 4.9em 3em;
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .ipa h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;  
   text-transform: uppercase;
 }
 
 .ipa p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 .ipaimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 7em 1em 1em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0;
+  padding: 2em 3em;  
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
-.ipacontainer {
+/*.ipacontainer {
   clear: both;
-}
+}*/
 
 .paleimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 1em 1em 7em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0 1.5% 12%;
+  padding: 2em 3em;  
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .pale {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
   float: left;
+  width: 45%;
+  margin: 1.5% 3% 1.5% 1.5%;
+  padding: 4.9em 3em;
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .pale h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;  
   text-transform: uppercase;
 }
 
 .pale p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
-.palecontainer {
+/*.palecontainer {
   clear: both;
-}
+}*/
 
 .amber {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
   float: left;
+  width: 45%;
+  margin: 1.5% 1.5% 1.5% 12%;
+  padding: 4.9em 3em;
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .amber h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;
   text-transform: uppercase;
 }
 
 .amber p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 .amberimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 7em 1em 1em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0;
+  padding: 2em 3em;  
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
-.ambercontainer {
+/*.ambercontainer {
   clear: both;
-}
+}*/
 
 .brownimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 1em 1em 7em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0 1.5% 12%;
+  padding: 2em 3em;  
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .brown {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
   float: left;
+  width: 45%;
+  margin: 1.5% 3% 1.5% 1.5%;
+  padding: 4.9em 3em;  
+  background: rgb(84, 154, 233);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .brown h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;  
   text-transform: uppercase;
 }
 
 .brown p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
-.browncontainer {
+/*.browncontainer {
   clear: both;
 }
-
+*/
 .porter {
-  width: 50%;
-  margin: 1em 2em;
-  padding: 1% 5%;
   float: left;
+  width: 45%;
+  margin: 1.5% 1.5% 0 12%;
+  padding: 4.9em 3em;  
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .porter h3 {
-  font-size: 20px;
-  padding: 3% 1%;
+  padding: 0 0 .7em 0;
+  font-size: 3em;  
   text-transform: uppercase;
 }
 
 .porter p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 .porterimg {
-  display: inline-block;
-  width: 15%;
-  margin: 1em 7em 1em 1em;
   float: left;
+  display: inline-block;
+  width: 13em;
+  margin: 1.5% 0;
+  padding: 2em 3em;  
+  background: rgb(245, 175, 18);
+  border-radius: 1.2em;
+  border-right: .2em #3B3635 solid;
+  border-bottom: .2em #3B3635 solid;
 }
 
 .portercontainer {
@@ -335,14 +367,13 @@ h2 {
 }
 
 footer {
-  width: 70%;
-  margin: 10% 10%;
-  background-color: black;
+  float: left;
+  width: 100%;
+  background-color: black;  
 }
 
 #nav_footer {
-  float: right;
-  margin: 0 10%;
+  margin: 0 30%;
 }
 
 #nav_footer a:hover {
@@ -351,26 +382,159 @@ footer {
 
 #nav_footer a {
   display: inline-block;
-  font-size: 18px;
-  padding: 20px;
-  text-transform: uppercase;
-  margin: 0 50px 20px 0;
-  color: #2300FF;
+  margin: .5% 3%;
+  padding: 1em;
+  font-size: 1.2em;
   font-weight: bold;
-  text-decoration: none;
-  text-shadow: .8px .8px #000000;
   text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2300FF;  
 }
 
 #contact {
-  color: #D66D00;
   clear: both;
+  color: rgb(245, 175, 18);  
   text-align: center;
 }
 
 #phoneemail {
   clear: both;
-  color: #D66D00;
-  text-decoration: none;
+  color: rgb(245, 175, 18);
   text-align: center;
+  text-decoration: none;  
+}
+
+@media only screen and (max-width:1200px) {
+  .logo {
+    width: 9em;
+  }
+  #nav_header {
+    margin: 0 15%;
+}
+
+@media only screen and (max-width:1000px) {
+  #nav_header {
+    margin: 0 10%;
+  }
+}
+
+@media only screen and (max-width:950px) {
+  .logo {
+    margin: 1% 44% 1% 44%;
+  }
+  #nav_header {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  #slogan {  
+    padding-top: .6em;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width:840px) {
+  #nav_header {
+    float: none;
+    width: auto;
+  }
+  #nav_header a {
+    width: 100%;
+    margin: 0 1%;
+    padding: .8em;
+    font-size: 0.9em;
+    text-align: center;
+    border: .1em black solid;
+    background: rgb(84, 154, 233);
+  }
+  #nav_header a:hover {
+  background: #75B6FF;
+  }
+  #brand {
+    padding: .3em;
+    font-size: 6em;
+  }
+  .logo {
+    margin: 1% 40%;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  #brand {
+    font-size: 5em;
+  }
+  .logo {
+    width: 7.5em;
+    margin: 0 41%;
+    padding-top: 3em;
+  }
+  #slogan {  
+    padding-top: 2.5em;
+    font-size: 1.8em;
+    line-height: 1.3em;
+  }
+  
+}
+
+@media only screen and (max-width:550px) {
+  #brand {
+    padding-top: .5em;
+    font-size: 4.7em;
+  }
+  #slogan {  
+    padding-top: 3em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    text-shadow: none;
+    color: #2300FF;
+  }
+  .logo {
+    margin: 0 38%;
+    padding-top: 3em;
+  }
+}
+
+@media only screen and (max-width:490px) {
+  .logo {
+    margin: 1% 33%;
+  }
+  #slogan {  
+    padding-top: 3em;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    letter-spacing: .02em;
+  }
+}
+
+@media only screen and (max-width:460px) {
+  #nav_header a {
+    padding: .7em;
+    font-size: 0.8em;
+  }
+  #brand {
+    font-size: 4.4em;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  #brand {
+    padding-top: .5em;
+    font-size: 4.2em;
+  }
+  .logo {
+    width: 7.2em;
+  }
+  #slogan {  
+    padding-top: 2.5em;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  #brand {
+    font-size: 4.0em;
+    padding-top: .8em;
+  }
 }
