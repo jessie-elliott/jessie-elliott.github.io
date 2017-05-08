@@ -2,24 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
-&* {margin:0; padding:0; box-sizing: border-box;}
+* {margin:0; padding:0; box-sizing: border-box;}
 
 #nav_header {
   float: left;
-  width: 100%;
-  margin: 0 20%;
+  width: 11%;
 }
 
 #nav_header a {
+  width: 100%;
   display: inline-block;  
   margin: 0 1%;
-  padding: 1.2em;
-  font-size: 1.1em;
+  padding: 1em;
+  font-size: 1em;
   font-weight: 900;
   text-decoration: none;
-  text-shadow: 1px 1px black;
+/*  text-shadow: 1px 1px black;*/
   text-transform: uppercase; 
-  color: #2300FF;
+  color: black;
+/*  color: rgb(253, 184, 1);*/
+  background: rgba(251, 238, 205, .4);
 }
 
 #nav_header a:hover {
@@ -27,7 +29,7 @@
 }
 
 #hero {
-  background-image: url("images/beermountains2.jpg");
+  background-image: url("../images/beermountains2.jpg");
   background-position: center;
   background-size: cover;
   padding: 10em, 0 0;
@@ -35,53 +37,74 @@
   text-align: center;
 }
 
+.hero h3 {
+  font-family: 'Playfair Display', serif;
+  text-shadow: #2300FF;
+}
+
+.brand {
+  float: left;
+  display: block;
+  font-family: 'Shrikhand', cursive;
+  font-size: 8em;
+  line-height: 1em;
+  text-shadow: 3px 3px #2300FF;
+  color: black;  
+}
+
+#bluejay {
+  margin: 0 0 0 16%;
+  padding: .5em 0 0 0;
+}
+
+#brewing {
+  margin: 0 0 0 22%;
+}
+.brand:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.logo {
+  float: left;
+  width: 13em;
+  margin: 1% 0 0 42%;
+}
+
+
+
+/*new section*/
+
 body {
   background: rgb(251, 238, 205);
   font-size: 16px;
   /*color: #FFC302;*/
 }
 
-.logo {
-  width: 11em;
-  display: block;
-  margin: 5% 44% 5% 44%;
-}
-
-#brand {
-  margin: 0 0;
-  padding: .8em 0 0 0;
-  display: block;
-  font-family: 'Shrikhand', cursive;
-  font-size: 6.5em;
-  text-shadow: 3px 3px #2300FF;
-  color: black;  
-}
-
-.hero h3 {
-  font-family: 'Playfair Display', serif;
-  text-shadow: #2300FF;
+.intro {
+  width: 90%;
+  margin: 5% 5% 14% 5%;
 }
 
 #slogan {  
-  padding-top: 1em;
+  padding: 1em;
   font-family: 'Droid Sans', sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: 2.3em;
-  text-shadow: 1px 1px #2300FF;
+  text-align: center;
   color: black;
-}
-
-.intro {
-  width: 90%;
-  margin: 5%;
+/*  color: rgb(232, 232, 234);*/
 }
 
 #sustainableimg {
   float: left;
   display: inline-block;
-  width: 25%;
-  margin: 1% 1% 1% 15%;
+  width: 19em;
+  margin: 1% 0 1% 15%;
   background-color: #E582A2;
   border-radius: 15px;
 }
@@ -89,7 +112,7 @@ body {
 #sustainabletext {
   float: right;
   width: 40%;
-  margin: 3% 13% 1% 1%;
+  margin: 1% 13% 1% 1%;
   padding: 1%;
   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
@@ -110,254 +133,84 @@ body {
   height: 0;
 }
 
+
+/* new section */
+
 #container {
-  width: 90%;
-  margin: 5% 5% 0 5%;
-  background-color: rgb(253, 251, 252);
-  border: .3em black solid;
-  border-radius: 1.2em;
+  max-width: 75em
+  margin: 5% auto;
+  padding: 4em;
+  background-color: rgba(251, 238, 205, .7);
+  background-image: url("../images/hops.jpg")/*,url("../images/brewing2.jpg"),url("../images/beerlineup2.jpg")*/;
+  background-position: center;
+  background-size: 100%;
+  padding: 10em, 0 0;
 }
 
 #container h2 {
-  padding: 1em;
   font-family: 'Shrikhand', cursive;
   font-size: 4.5em;
   text-shadow: 2px 2px #2300FF;
   text-align: center;
   color: black; 
+  background: rgba(251, 238, 205, .7);
+  border-radius: 1.2em;
+  border-right: .1em #3B3635 solid;
+  border-bottom: .1em #3B3635 solid;
 }
 
-/*.lagercontainer {
-  width: 100%;
-  margin: 0 auto;
-  border: 1em black solid;
-}*/
+.beers > div {
+  margin: 2em 0;
+}
 
-.lagerimg {
+.beers img {
   float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0 1.5% 12%;
+  width: 30.33%;
+  margin: 0 0 0 1%;
   padding: 2em 3em;
-  background: rgb(84, 154, 233);
+  background: rgba(251, 238, 205, .7);
+  /*background: rgba(84, 154, 233, .56);*/
   border-radius: 1.2em;
   border-right: .2em #3B3635 solid;
   border-bottom: .2em #3B3635 solid;
 }
 
-.lager {
+.beers div div {
   float: left;
-  width: 45%;
-  margin: 1.5% 3% 1.5% 1.5%;
-  padding: 4.9em 3em;
-  background: rgb(84, 154, 233);
-  border-radius: 1.2em;
+  width: 66.66%;
+  margin: 0 0 0 1%;
+  padding: 4em 3em 0 3em;
+  background: rgba(251, 238, 205, .7);
+  /*background: rgba(84, 154, 233, .6);*/
+  border-radius: 1em;
   border-right: .2em #3B3635 solid;
   border-bottom: .2em #3B3635 solid;
+  min-height: 22.25em;
 }
 
-.lager h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;
+.beers h3 {
+  padding: .25em 0 .75em 0;
+  font-size: 2.5em;
   text-transform: uppercase;
 }
 
-.lager p {
+.beers p {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.25em;
+
 }
 
-.ipa {
-  float: left;
-  width: 45%;
-  margin: 1.5% 1.5% 1.5% 12%;
-  padding: 4.9em 3em;
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
+.beers div:nth-of-type(even) > * {
+  float: right;
+  margin: 0 1% 0 0;
+ /* background: rgba(245, 175, 18, .6);*/
 }
 
-.ipa h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;  
-  text-transform: uppercase;
+.beers div:nth-of-type(even) > div {
+  margin: 0 1% 0 0;
 }
 
-.ipa p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
-}
-
-.ipaimg {
-  float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0;
-  padding: 2em 3em;  
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-/*.ipacontainer {
-  clear: both;
-}*/
-
-.paleimg {
-  float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0 1.5% 12%;
-  padding: 2em 3em;  
-  background: rgb(84, 154, 233);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.pale {
-  float: left;
-  width: 45%;
-  margin: 1.5% 3% 1.5% 1.5%;
-  padding: 4.9em 3em;
-  background: rgb(84, 154, 233);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.pale h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;  
-  text-transform: uppercase;
-}
-
-.pale p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
-}
-
-/*.palecontainer {
-  clear: both;
-}*/
-
-.amber {
-  float: left;
-  width: 45%;
-  margin: 1.5% 1.5% 1.5% 12%;
-  padding: 4.9em 3em;
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.amber h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;
-  text-transform: uppercase;
-}
-
-.amber p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
-}
-
-.amberimg {
-  float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0;
-  padding: 2em 3em;  
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-/*.ambercontainer {
-  clear: both;
-}*/
-
-.brownimg {
-  float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0 1.5% 12%;
-  padding: 2em 3em;  
-  background: rgb(84, 154, 233);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.brown {
-  float: left;
-  width: 45%;
-  margin: 1.5% 3% 1.5% 1.5%;
-  padding: 4.9em 3em;  
-  background: rgb(84, 154, 233);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.brown h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;  
-  text-transform: uppercase;
-}
-
-.brown p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
-}
-
-/*.browncontainer {
-  clear: both;
-}
-*/
-.porter {
-  float: left;
-  width: 45%;
-  margin: 1.5% 1.5% 0 12%;
-  padding: 4.9em 3em;  
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.porter h3 {
-  padding: 0 0 .7em 0;
-  font-size: 3em;  
-  text-transform: uppercase;
-}
-
-.porter p {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.1em;
-}
-
-.porterimg {
-  float: left;
-  display: inline-block;
-  width: 13em;
-  margin: 1.5% 0;
-  padding: 2em 3em;  
-  background: rgb(245, 175, 18);
-  border-radius: 1.2em;
-  border-right: .2em #3B3635 solid;
-  border-bottom: .2em #3B3635 solid;
-}
-
-.portercontainer {
-  clear: both;
-}
-
-#container:after {
+#container:after, .beers>div:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -366,175 +219,231 @@ body {
   height: 0;
 }
 
+
+/* new section */
+
 footer {
   float: left;
   width: 100%;
-  background-color: black;  
 }
 
 #nav_footer {
-  margin: 0 30%;
+  margin: 0 0 0 28%;
 }
 
 #nav_footer a:hover {
-  color: white;
+  color: #2300FF;
 }
 
 #nav_footer a {
   display: inline-block;
-  margin: .5% 3%;
+  margin: .5% 0;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2300FF;  
+  color: black;  
 }
 
 #contact {
   clear: both;
-  color: rgb(245, 175, 18);  
+  color: black;  
   text-align: center;
 }
 
 #phoneemail {
   clear: both;
-  color: rgb(245, 175, 18);
+  color: black;
   text-align: center;
   text-decoration: none;  
 }
 
-@media only screen and (max-width:1200px) {
+
+/* new section */
+@media only screen and (max-width:1150px) {
+  #nav_header {
+    width: 12%;
+  }
+  #bluejay {
+    margin: 0 10% 0 15%;
+  }
+  #brewing {
+    margin: 0 10% 0 21%;
+  }
+}
+
+@media only screen and (max-width:1119px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:1040px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width:970px) {
+  #nav_header {
+    width: 13%;
+  }
+  #nav_header a {
+    font-size: 1.2em;
+  }
+  #bluejay {
+    margin: 0 10% 0 12%;
+    padding: .5em 0 0 0;
+  }
+  #brewing {
+    margin: 0 10% 0 18%;
+  }
   .logo {
-    width: 9em;
+    margin: 3% 0 0 28%;
   }
-  #nav_header {
-    margin: 0 15%;
+  #sustainableimg {
+    float: none;
+    margin: 1% 0 1% 35%;
+  }
+  #sustainabletext {
+    float: none;
+    width: 50%;
+    margin: 0 0 0 25%;
+    font-size: 1.3em;
+  }
 }
 
-@media only screen and (max-width:1000px) {
-  #nav_header {
-    margin: 0 10%;
+@media only screen and (max-width:940px) {
+  body {
+    font-size: 13px;
   }
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:868px) {
+  #nav_header {
+    width: 14%;
+  }
+  #nav_header a {
+    font-size: 1.2em;
+  }
+  #bluejay {
+    margin: 0 10% 0 11%;
+    padding: .5em 0 0 0;
+  }
+  #brewing {
+    margin: 0 10% 0 17%;
+  }
   .logo {
-    margin: 1% 44% 1% 44%;
-  }
-  #nav_header {
-    margin: 0;
+    margin: 3% 0 0 27%;
   }
 }
 
-@media only screen and (max-width:900px) {
-  #slogan {  
-    padding-top: .6em;
-    font-size: 2em;
-  }
-}
-
-@media only screen and (max-width:840px) {
+@media only screen and (max-width:820px) {
   #nav_header {
     float: none;
-    width: auto;
+    width: 100%;
   }
+  #nav_header a {
+    display: inline-block;
+    width: 14%;
+    padding: 1em .5em;
+    text-align: center;
+  }
+  #bluejay {
+    margin: 0 10% 0 18%;
+    padding: .5em 0 0 0;
+  }
+  #brewing {
+    margin: 0 10% 0 25%;
+  }
+  .logo {
+    width: 12em;
+    margin: 3% 0 0 40%;
+  }
+   #sustainableimg {
+    float: none;
+    margin: 1% 0 1% 33%;
+  }
+  #nav_footer {
+    margin: 0 0 0 22%;
+  }
+}
+
+@media only screen and (max-width:715px) {
+  body {
+    font-size: 12px;
+  }
+   #bluejay {
+    margin: 0 10% 0 15%;
+  }
+  #brewing {
+    margin: 0 10% 0 22%;
+  }
+  #slogan { 
+    font-size: 2em;
+  }
+  #sustainableimg {
+    width: 23em;
+    margin: 1% 0 1% 29%;
+  }
+  #sustainabletext {
+    float: none;
+    width: 60%;
+    margin: 0 0 0 20%;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width:645px) {
   #nav_header a {
     width: 100%;
-    margin: 0 1%;
-    padding: .8em;
-    font-size: 0.9em;
-    text-align: center;
-    border: .1em black solid;
-    background: rgb(84, 154, 233);
   }
-  #nav_header a:hover {
-  background: #75B6FF;
-  }
-  #brand {
-    padding: .3em;
-    font-size: 6em;
+  .brand {
+    font-size: 7em;
   }
   .logo {
-    margin: 1% 40%;
+    width: 11em;
+    margin: 10% 0 0 40%;
   }
-}
-
-@media only screen and (max-width:700px) {
-  #brand {
-    font-size: 5em;
+  #sustainableimg {
+    width: 23em;
+    margin: 1% 0 1% 26%;
   }
-  .logo {
-    width: 7.5em;
-    margin: 0 41%;
-    padding-top: 3em;
-  }
-  #slogan {  
-    padding-top: 2.5em;
-    font-size: 1.8em;
-    line-height: 1.3em;
-  }
-  
-}
-
-@media only screen and (max-width:550px) {
-  #brand {
-    padding-top: .5em;
-    font-size: 4.7em;
-  }
-  #slogan {  
-    padding-top: 3em;
+  #sustainabletext {
+    float: none;
+    width: 60%;
+    margin: 0 0 0 20%;
     font-size: 1.5em;
-    line-height: 1.2em;
-    letter-spacing: .05em;
-    text-shadow: none;
-    color: #2300FF;
   }
-  .logo {
-    margin: 0 38%;
-    padding-top: 3em;
+  .beers img {
+    float: none;
+    width: 20em;
+    margin: 1% 0 0 28%;
   }
-}
-
-@media only screen and (max-width:490px) {
-  .logo {
-    margin: 1% 33%;
+  .beers div div {
+    float: none;
+    width: 80%;
+    margin: 1% 0 0 10%;
   }
-  #slogan {  
-    padding-top: 3em;
-    font-size: 1.4em;
-    line-height: 1.1em;
-    letter-spacing: .02em;
+  .beers div:nth-of-type(even) > * {
+    float: none;
+    margin: 1% 0 0 0;
   }
-}
-
-@media only screen and (max-width:460px) {
-  #nav_header a {
-    padding: .7em;
-    font-size: 0.8em;
+  .beers div:nth-of-type(even) > div {
+    margin: 1% 0 0 10%;
+   }
+  .beers div:nth-of-type(even) > img {
+    margin: 1% 0 0 28%;
   }
-  #brand {
-    font-size: 4.4em;
+  #nav_footer {
+    margin: 0 0 0 18%;
   }
-}
-
-@media only screen and (max-width:400px) {
-  #brand {
-    padding-top: .5em;
-    font-size: 4.2em;
+  #contact {
+    font-size: 1.25em;
   }
-  .logo {
-    width: 7.2em;
-  }
-  #slogan {  
-    padding-top: 2.5em;
-  }
-}
-
-@media only screen and (max-width:360px) {
-  #brand {
-    font-size: 4.0em;
-    padding-top: .8em;
+  #phoneemail {
+    font-size: 1.25em;  
   }
 }
