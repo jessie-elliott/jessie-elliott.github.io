@@ -154,7 +154,7 @@ body {
   text-align: center;
   color: black; 
   background: rgba(251, 238, 205, .7);
-  border-radius: 1.2em;
+  border-radius: .25em;
   border-right: .1em #3B3635 solid;
   border-bottom: .1em #3B3635 solid;
 }
@@ -394,12 +394,38 @@ footer {
     margin: 0 0 0 20%;
     font-size: 1.5em;
   }
+  .beers img {
+    float: none;
+    width: 20em;
+    margin: 3% 0 0 24%;
+  }
+  .beers div div {
+    float: none;
+    width: 80%;
+    margin: 1% 0 15% 9%;
+  }
+  .beers div:nth-of-type(even) > * {
+    float: none;
+    margin: 3% 0 0 0;
+  }
+  .beers div:nth-of-type(even) > div {
+    margin: 1% 0 15% 9%;
+   }
+  .beers div:nth-of-type(even) > img {
+    margin: 1% 0 0 24%;
+  }
 }
 
 @media only screen and (max-width:645px) {
   #nav_header a {
     width: 100%;
   }
+
+  #nav_header a:hover {
+    background: #CDD9FB;
+    color: #2300FF;
+  }
+
   .brand {
     font-size: 7em;
   }
@@ -409,33 +435,33 @@ footer {
   }
   #sustainableimg {
     width: 23em;
-    margin: 1% 0 1% 26%;
+    margin: 1% 0 1% 24%;
   }
   #sustainabletext {
     float: none;
     width: 60%;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 21%;
     font-size: 1.5em;
   }
   .beers img {
     float: none;
     width: 20em;
-    margin: 1% 0 0 28%;
+    margin: 1% 0 0 24%;
   }
   .beers div div {
     float: none;
     width: 80%;
-    margin: 1% 0 0 10%;
+    margin: 1% 0 0 9%;
   }
   .beers div:nth-of-type(even) > * {
     float: none;
     margin: 1% 0 0 0;
   }
   .beers div:nth-of-type(even) > div {
-    margin: 1% 0 0 10%;
+    margin: 1% 0 0 9%;
    }
   .beers div:nth-of-type(even) > img {
-    margin: 1% 0 0 28%;
+    margin: 1% 0 0 24%;
   }
   #nav_footer {
     margin: 0 0 0 18%;
@@ -446,4 +472,8 @@ footer {
   #phoneemail {
     font-size: 1.25em;  
   }
+}
+
+@media only screen and (max-width:) {
+
 }
